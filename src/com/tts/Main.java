@@ -1,9 +1,10 @@
 package com.tts;
+//import java.util.*;
 
 public class Main {
 
     public static void main(String[] args) {
-	//Use of If-Else Statements: looping through something:
+        //Use of If-Else Statements: looping through something:
 /*    int a = 6;
     if(a == 1) {
         System.out.println("A is 1");
@@ -20,7 +21,7 @@ public class Main {
         System.out.println("A is something else!");
     }
 */
-    //Example of Switch cases: much more clear although a bit more code:
+        //Example of Switch cases: much more clear although a bit more code:
 /*        int a = 0;
         switch (a) {
             case 0:
@@ -78,10 +79,37 @@ public class Main {
             }
         }
 */
-        //Use of While Loop
+ /*    //Use of While Loop
+        boolean flag= true;
+        int x= 0;
+
+        while (flag) {
+            x++;
+            System.out.println("This is an infinite Loop!" + x );
+            if (x == 55555) {
+                flag = false;
+
+            }
+        }
+*/
+  /*      //Use of Do While Loop
+        boolean flag= true;
+        int x= 0;
+
+        do {
+            x++;
+            System.out.println("This is an infinite Loop!" + x);
+            if (x == 55555) {
+                flag = false;
+            }
+            }
+        while (flag); {
+            System.out.println("Stop! In the name of love!");
+*/
+        //Use of tertiary loop
 
 
+           }
+      }
 
 
-    }
-}
