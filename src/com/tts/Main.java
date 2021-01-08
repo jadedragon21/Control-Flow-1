@@ -79,7 +79,7 @@ public class Main {
             }
         }
 */
- /*    //Use of While Loop
+ /*    //Use of While Loop:beware of the infinite loop!
         boolean flag= true;
         int x= 0;
 
@@ -92,7 +92,7 @@ public class Main {
             }
         }
 */
-  /*      //Use of Do While Loop
+  /*      //Use of Do While Loop:beware of the infinite loop!
         boolean flag= true;
         int x= 0;
 
@@ -106,10 +106,24 @@ public class Main {
         while (flag); {
             System.out.println("Stop! In the name of love!");
 */
-        //Use of tertiary loop
+        //Use of Ternary Operation: can be used as a replacement for a if else statement: 3 needs: boolean and 2 statements (true and false statements) or methods.
+        boolean flag = true;
+        int z= (flag ? 3 : 5);
+        System.out.println("Z is : " + z);
 
+        int m = (flag ? method1() : method2() );
+        System.out.println("M is : " + m);
 
            }
-      }
+//usually under the public class main before public static void has to outside of the public static void
+    private static int method2() {
+        return 5;
+    }
+
+    private static int method1() {
+        return 3;
+    }
+
+}
 
 
